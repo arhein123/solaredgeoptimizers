@@ -12,7 +12,7 @@ LOGGER = logging.getLogger(__package__)
 
 UPDATE_DELAY = timedelta(minutes=15)
 
-CHECK_TIME_DELTA = timedelta(hours=1, minutes=00)
+CHECK_TIME_DELTA = timedelta(hours=3, minutes=00)
 
 SENSOR_TYPE_CURRENT = "Current"
 SENSOR_TYPE_OPT_VOLTAGE = "Optimizer_voltage"
